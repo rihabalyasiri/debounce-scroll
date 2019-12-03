@@ -1,0 +1,25 @@
+.left {
+    float: left;
+    opacity: 0;
+    transform: translateX(-30%);
+}
+
+.right {
+    float:right;
+    opacity: 0;
+    transform: translateX(30%);
+}
+
+main {
+    width:800px;
+    margin: 0 auto;
+}
+
+.active {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+img {
+    transition: all .5s;
+}
